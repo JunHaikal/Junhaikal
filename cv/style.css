@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Photo.jpg'); /* Ganti dengan URL atau path gambar kamu */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan layar */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+  
+  .container {
+      display: flex;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: rgb(198, 227, 255);
+      border-radius: 10px;
+      overflow: hidden;
+  }
+  
+  .sidebar {
+      width: 30%;
+      background-color: #494e5a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+  }
+  
+  .profile h2 {
+      margin: 10px 0;
+  }
+  
+  .contact, .skills {
+      text-align: left;
+      margin-top: 20px;
+  }
+  
+  .skills ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .skills li {
+      background: #34495e;
+      padding: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+  }
+  
+  .content {
+      width: 70%;
+      padding: 20px;
+  }
+  
+  h2 {
+      color: #2c3e50;
+  }
+  
+  .achievements ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
+  .achievements li {
+      background: #ecf0f1;
+      padding: 8px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+  }
+  
